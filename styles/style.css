@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #d7d6db; 
+}
+/* topar start */
+ 
+ .auhor{
+    font-size: 40px;
+    width: min-content;
+    margin-top: 128px;
+}
+
+.auhor:hover{
+    color: red;  
+}
+ .hedar{ 
+    background-color: #6159D6;
+    /* display: block; */
+} 
+.main-menu{
+    display: flex; 
+}
+ .main-menu{
+    width: 100%;
+    height: 600px;
+    justify-content: space-around;
+} 
+
+.sidbar{
+     display: flex; 
+    align-items: center;
+}  
+.wallpaper img{
+    width: 556px;
+    height: 370px;
+}
+.wallpaper img:hover{
+    transform: rotate(30deg);
+    transition: 2s all ease;
+}   
+/* topar end */
+
+/* Top-players strt */
+hr{
+    border: 1px solid #d7d6db;
+    margin-top: 20px;
+}
+.container{
+    /* display: flex; */
+    margin: auto;
+} 
+
+.section-title{
+    color: #6159D6;
+    font-size: 23px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 0px;
+}
+.container{
+    background-color: #fffdfd;
+    width: 870px;
+    padding: 30px;
+}
+.player{
+    display: flex;
+    align-items: center;
+    
+}
+.player img{
+    width: 100px;
+    height: 100px;
+}
+.player img:hover{
+    transition: 2s;
+    transform: scale(1.10);
+}
+.player-name{
+    margin-left: 16px;
+    font-size: 12px;
+    font-weight: 700;
+    font-style: oblique;
+} 
+/* Top-players end */
+
+/*-------------- 
+Top blog style start 
+--------------------*/
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap:20px;
+}
+.blog-author a{
+    text-decoration: none;
+}
+.blog .thumbnail img{
+    width: 177px;
+    height: 177px;
+}
+.thumbnail img:hover{
+    transition: 2s;
+    transform: scale(1.10);
+}
+button{
+    background-color: darkgrey;
+    color: white;
+    border: none;
+    padding-left: 20px;
+    border-radius: 5px;
+    padding-right: 25px;
+}
+button:hover{
+    background-color: rgb(138, 86, 8);
+    transition: 2s;
+    transform: scale(1.10);
+}
+/* Top blog style start */
